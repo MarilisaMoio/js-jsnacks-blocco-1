@@ -8,10 +8,10 @@ const listLength = 10;
 
 //aggiunta di numeri casuali all'array
 for (let i = 0; i < listLength; i++){
-    numberList.push(Math.floor(Math.random() * 100 + 1))
+    numberList.push(Math.floor(Math.random() * 100 + 1));
 }
 
-console.log(numberList, listLength)
+console.log(numberList, listLength);
 
 //identificazione del numero più alto
 let biggerNumber = 0;
