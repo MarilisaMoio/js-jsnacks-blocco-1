@@ -6,7 +6,7 @@ for (let i = 1; i <= 5; i++){
     //input utente
     const userNumber = parseInt(prompt("Inserisci qui un numero:"));
 
-    //controllo dell'array ed eventuale push
+    //somma
     numberSum += userNumber;
 }
 
